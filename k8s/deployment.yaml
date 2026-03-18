@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: REPLACE_IMAGE
+        image: acrhelloqu8to.azurecr.io/hello-app:v1
         ports:
         - containerPort: 8000
         readinessProbe:
